@@ -327,9 +327,6 @@ void insertionSortStr(char words[][26], int size) {
   }
 }
 
-#include <stdlib.h>
-#include <string.h>
-
 // Fungsi Merge untuk string
 void mergeStr(char words[][26], int l, int m, int r) {
     int n1 = m - l + 1;
